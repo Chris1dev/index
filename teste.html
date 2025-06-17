@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista Favorita</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            background: radial-gradient(circle, #1a1a1a 0%, #0d0d0d 100%);
+            color: #00ffea;
+            font-family: 'Press Start 2P', monospace;
+            margin: 0;
+            padding: 20px;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #ff00ff;
+            text-transform: uppercase;
+            border-bottom: 3px dashed #00ffea;
+            margin-bottom: 30px;
+        }
+
+        section {
+            border: 2px dotted #ff00ff;
+            padding: 20px;
+            margin: 30px auto;
+            background-color: rgba(0, 0, 0, 0.6);
+            max-width: 900px;
+        }
+
+        h2 {
+            font-size: 16px;
+            color: #ffff00;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        img {
+            border: 3px solid #00ffea;
+            border-radius: 5px;
+            width: 90%;
+            max-width: 320px;
+            transition: transform 0.3s ease, filter 0.3s ease;
+            filter: grayscale(0.2) brightness(1.1);
+        }
+
+        img:hover {
+            transform: scale(1.1) rotate(-1deg);
+            filter: none;
+        }
+
+        p {
+            font-size: 12px;
+            color: #ffffff;
+        }
+
+        ul {
+            list-style-type: square;
+            color: #ffcc00;
+            font-size: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        /* Efeito de borda neon nas seções */
+        section:hover {
+            box-shadow: 0 0 20px #00ffea, 0 0 40px #ff00ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minhas Lista Favoritas</h1>
+
+    <section>
+        <h2>Jogos</h2>
+        <table>
+            <tr>
+                <td><img src="https://th.bing.com/th/id/R.25059a5a4464f50897a5d457f827f341?rik=VH8XSl8ID0ALPQ&pid=ImgRaw&r=0" alt="Imagem 1"></td>
+                <td><img src="https://www.theloadout.com/wp-content/sites/theloadout/2023/05/Counter-Strike-2-Maps.jpg" alt="Imagem 2"></td>
+            </tr>
+        </table>
+        <p>Qualquer tipo de FPS competitivo.</p>
+        <ul>
+            <li>Valorant</li>
+            <li>CS 2</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Filmes</h2>
+        <table>
+            <tr>
+                <td><img src="https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/9c/e7/b0/9ce7b06e-b7c1-acf5-c6d6-1ae7d0f3cbea/pr_source.lsr/1200x675.jpg" alt="Imagem 1"></td>
+                <td><img src="https://i0.wp.com/trilhadomedo.com/wp-content/uploads/2019/12/Invoca%C3%A7%C3%A3o-do-Mal-3.jpg?resize=1000%2C600&ssl=1" alt="Imagem 2"></td>
+            </tr>
+        </table>
+        <p>Meu gênero favorito é terror.</p>
+        <ul>
+            <li>Invocação do Mal 2</li>
+            <li>Invocação do Mal 3</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Esportes</h2>
+        <table>
+            <tr>
+                <td><img src="https://img.vavel.com/portugal-v-spain-futsal-finalissima-2022-final-2-1663538839118.jpg" alt="Imagem 1"></td>
+                <td><img src="https://th.bing.com/th/id/R.e54e301d9784869e449e3e3b662c5a29?rik=M97k93Amjaxxlg&pid=ImgRaw&r=0" alt="Imagem 2"></td>
+            </tr>
+        </table>
+        <p>Gosto de jogar bola e correr.</p>
+        <ul>
+            <li>Futsal</li>
+            <li>Correr longas distâncias</li>
+        </ul>
+        <h2>Onde me encontrar</h2>
+    </section>
+</body>
+</html>
